@@ -59,6 +59,8 @@ def newAnalyzer():
     analyzer['crimes'] = lt.newList('SINGLE_LINKED', compareIds)
     analyzer['dateIndex'] = om.newMap(omaptype='BST',
                                       cmpfunction=compareDates)
+    analyzer['dateIndex'] = om.newMap(omaptype='RBT',
+                                        cmpfunction=compareDates)
     return analyzer
 
 

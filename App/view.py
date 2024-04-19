@@ -52,6 +52,7 @@ def printMenu():
     print("2- Cargar información de crimenes")
     print("3- Consultar crimenes en un rango de fechas")
     print("4- Consultar crimenes por codigo y fecha")
+    print("5- Consultar crimenes por un rango de área")
     print("0- Salir")
     print("*******************************************")
 
